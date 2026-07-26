@@ -163,6 +163,81 @@ body{
 }
 
 /* ===========================
+        navbar
+=========================== */
+/*       Navbar       */
+.navbar{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 75px;
+    box-shadow: 0 0 10px #00000020;
+}
+
+/*        Logo              */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 86px;
+    height: auto;
+}
+/*      Logo Text    */ 
+.logo_text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.logo_text h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+    color: #09cc57;
+    font-weight: bold;
+}
+
+
+.logo_text h4{
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0;
+    color: #000000;
+    font-weight: bold;
+}
+
+/*   Navigation (Right Side)      */
+.nav-links{
+    margin-left: auto;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #080808;
+    font-size: 16px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    color: #09cc57;
+    text-decoration: underline;
+    text-decoration-color: #09cc57;
+}
+/* ===========================
         Responsive
 =========================== */
 
