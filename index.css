@@ -236,7 +236,23 @@ body{
     color: #09cc57;
     text-decoration: underline;
     text-decoration-color: #09cc57;
+
+
 }
+/* ===========================
+    background image
+=========================== */
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+
+
 /* ===========================
         Responsive
 =========================== */
